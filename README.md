@@ -4,6 +4,8 @@ HESTIA 프로젝트의 **별도 비전 데모**입니다. YOLOv8s로 사람을 �
 
 > **English summary** — Standalone fall-detection demo: YOLOv8s person detection on a video file, flagging a fall when the person's bounding box becomes wider than it is tall. Not integrated into the main HESTIA_SW application.
 
+🎬 **낙상 감지 데모 영상:** [HESTIA 낙상 감지 (YouTube)](https://youtu.be/xu1DMcqHmkI)
+
 ## 동작 방식 (`main.py`)
 1. `cv2.VideoCapture('fall2.mp4')`로 샘플 영상 프레임 읽기 → 980×740 리사이즈
 2. `YOLO('yolov8s.pt')` 추론, `classes.txt`(COCO 80 클래스)로 이름 매핑
